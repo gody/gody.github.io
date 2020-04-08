@@ -555,6 +555,14 @@ a:hover, a:active {
     background: #49a7f3;
 }
 
+.single-portfolio .post-share ul li.ln {
+    background: #0077b5;
+}
+
+.single-portfolio .post-share ul li.gh {
+    background: #a6a6a6;
+}
+
 /*
 # Post Sidebar
 --------------------------------*/
@@ -1062,6 +1070,14 @@ a:hover, a:active {
 
 .single-post .post-share ul li.tw {
     background: #49a7f3;
+}
+
+.single-post .post-share ul li.ln {
+    background: #0077b5;
+}
+
+.single-post .post-share ul li.gh {
+    background: #a6a6a6;
 }
 
 @media screen and (min-width: 768px) {
