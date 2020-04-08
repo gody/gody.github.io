@@ -3,6 +3,7 @@
 body {
     color: #191919;
     font-family: 'Work Sans', sans-serif;
+    background: #7993af;
 }
 
 img {
@@ -46,6 +47,7 @@ a:hover, a:active {
 @media screen and (min-width: 992px) {
     .outer-container {
         padding-left: 80px;
+        background: #7993af;
     }
 }
 
@@ -135,7 +137,7 @@ a:hover, a:active {
 
 .main-menu li a {
     display: block;
-    color: #a6a6a6;
+    color: #ccc;
     text-decoration: none;
     transition: all 0.35s;
 }
@@ -180,8 +182,8 @@ a:hover, a:active {
         z-index: 999;
         width: 100%;
         padding: 15px 30px;
-        background: #fff;
-        box-shadow: 0 12px 24px rgba(0,0,0,.09);
+        background: #7993af;
+        box-shadow: 0 12px 24px rgba(255,255,255,.09);
     }
 
     .site-header,
@@ -225,7 +227,7 @@ a:hover, a:active {
         z-index: 99;
         width: 100%;
         height: 500px;
-        background: #fff;
+        background: #7993af;
         box-shadow: 0 12px 24px rgba(0,0,0,.09);
         visibility: hidden;
         opacity: 0;
@@ -253,11 +255,11 @@ a:hover, a:active {
         width: 80px;
         height: 100vh;
         padding: 0 15px;
-        box-shadow: 6px 0 12px rgba(0,0,0,.05);
+        box-shadow: 6px 0 12px rgba(255,255,255,.05);
     }
 
     .site-navigation {
-        background: #f7f7f7;
+        background: #7993af;
     }
 
     .site-navigation.show {
@@ -265,7 +267,7 @@ a:hover, a:active {
     }
 
     .site-header {
-        background: #fff;
+        background: #7993af;
     }
 
     .site-header.no-shadow {
@@ -295,7 +297,7 @@ a:hover, a:active {
         z-index: 99;
         width: 250px;
         padding: 0;
-        box-shadow: 16px 0 42px rgba(0,0,0,.09);
+        box-shadow: 16px 0 42px rgba(255,255,255,.09);
     }
 
     .main-menu {
@@ -420,7 +422,7 @@ a:hover, a:active {
 
 .portfolio-content li a {
     font-size: 0.875rem;
-    color: #a6a6a6;
+    color: #ccc;
 }
 
 @media screen and (min-width: 768px) {
@@ -439,14 +441,14 @@ a:hover, a:active {
 .breadcrumbs {
     padding: 48px 0;
     margin: 0;
-    color: #a6a6a6;
+    color: #ccc;
     list-style: none;
     font-family: 'Poppins', sans-serif;
 }
 
 .breadcrumbs li {
     position: relative;
-    color: #a6a6a6;
+    color: #fff;
     padding: 0 12px;
 }
 
@@ -576,7 +578,7 @@ a:hover, a:active {
 
 .single-portfolio .posted-tags span,
 .single-portfolio .entry-meta a {
-    color: #bfbfbf;
+    color: #fff;
 }
 
 /*
@@ -829,7 +831,7 @@ a:hover, a:active {
 .single-post .content-area .entry-content p,
 .single-page .content-area .entry-content p {
     margin-bottom: 0.75rem;
-    color: #595959;
+    color: #fff;
 }
 
 /*
@@ -955,7 +957,7 @@ a:hover, a:active {
     margin-top: 20px;
     border: 1px solid #e5e5e5;
     line-height: 1;
-    color: #a6a6a6;
+    color: #ccc;
     outline: none;
 }
 
@@ -1010,7 +1012,7 @@ a:hover, a:active {
 
 .single-post .posted-tags span,
 .single-post .entry-meta a {
-    color: #bfbfbf;
+    color: #fff;
 }
 
 .single-post .post-share label {
